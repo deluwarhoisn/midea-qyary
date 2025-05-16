@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+
+        }
+        .food{
+            border: 2px solid tomato;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .food img{
+            width: 100%;
+        }
+        /* smaller device */
+        @media screen and (max-width:576px) {
+            .container{
+                grid-template-columns: repeat(1,1fr);
+                .food{
+                  background-color: aquamarine;
+                }
+                
+            }
+        }
+        /* medium device */
+        @media screen and (min-width:576px) and (max-width:992px){
+            .container{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+            
+        
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="food">
+        <img src="img/babu.jpg" alt="">
+        <h3>food item - 1</h3>
+        <p>price: $100</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam itaque optio a nulla dolorum architecto sint quis numquam consequuntur. Cumque?</p>
+        <button>bay naw</button>
+    </div>
+    <div class="food">
+        <img src="img/babu.jpg" alt="">
+        <h3>food item - 2</h3>
+        <p>price: $200</p>
+        <p>Id tenetur dolor consectetur corrupti dignissimos corporis dolores labore. Ab ducimus praesentium neque perferendis hic debitis cumque consectetur velit nostrum.</p>
+        <button>bay naw</button>
+    </div>
+    <div class="food">
+        <img src="img/babu.jpg" alt="">
+        <h3>food item - 3</h3>
+        <p>price: $300</p>
+        <p>Dolorem officiis consequatur tempore nobis iste cumque. Vero atque aperiam eius a dolorem ex impedit fuga. Blanditiis nobis repellat accusantium!</p>
+        <button>bay naw</button>
+    </div>
+    <div class="food">
+        <img src="img/babu.jpg" alt="">
+        <h3>food item - 4</h3>
+        <p>price: $400</p>
+        <p>Quod amet repellendus deserunt ut ad dignissimos libero modi, culpa adipisci ducimus natus placeat nesciunt doloremque corrupti! Error, neque expedita.</p>
+        <button>bay naw</button>
+    </div>
+    <div class="food">
+        <img src="img/babu.jpg" alt="">
+        <h3>food item - 5</h3>
+        <p>price: $500</p>
+        <p>Earum eum, deserunt molestias, voluptas dolorem consequuntur nihil eius architecto cumque id ipsam. Aut minima odio provident distinctio dicta commodi.</p>
+        <button>bay naw</button>
+    </div>
+    <div class="food">
+        <img src="img/babu.jpg" alt="">
+        <h3>food item - 6</h3>
+        <p>price: $600</p>
+        <p>Facilis nam dolores nulla quibusdam eos ullam, amet, non deleniti, ad dicta adipisci beatae similique harum ipsam animi ipsum eius?</p>
+        <button>bay naw</button>
+    </div>
+    <div class="food">
+        <img src="img/babu.jpg" alt="">
+        <h3>food item - 7</h3>
+        <p>price: $700</p>
+        <p>Deserunt quibusdam aut, pariatur, inventore quam officiis fugiat laborum, doloribus aliquam sequi libero saepe maiores nobis beatae! Hic, earum. Quam.</p>
+        <button>bay naw</button>
+    </div>
+    <div class="food">
+        <img src="img/babu.jpg" alt="">
+        <h3>food item - 8</h3>
+        <p>price: $800</p>
+        <p>Commodi nulla vitae ad fuga, ipsam dolorum tempora eveniet quis, mollitia error tempore consequatur totam nesciunt necessitatibus. Beatae, a perferendis?</p>
+        <button>bay naw</button>
+    </div>
+    <div class="food">
+        <img src="img/babu.jpg" alt="">
+        <h3>food item - 9</h3>
+        <p>price: $900</p>
+        <p>Ullam excepturi accusamus error dolor ipsam optio reiciendis deserunt, tempora deleniti explicabo omnis, velit nulla nesciunt consequuntur! Magnam, facere possimus?</p>
+        <button>bay naw</button>
+    </div>
+    <div class="food">
+        <img src="img/babu.jpg" alt="">
+        <h3>food item - 10</h3>
+        <p>price: $1000</p>
+        <p>Repellat velit ullam tenetur est. Omnis molestiae nulla eius laborum voluptas eveniet aspernatur! Doloribus nulla provident ipsam officiis qui recusandae!</p>
+        <button>bay naw</button>
+    </div>
+    <div class="food">
+        <img src="img/babu.jpg" alt="">
+        <h3>food item - 11</h3>
+        <p>price: $1100</p>
+        <p>Tenetur deleniti mollitia ea excepturi. Velit ab temporibus amet dolor, cupiditate nisi quo porro quibusdam et facere molestias nemo rerum!</p>
+        <button>bay naw</button>
+    </div>
+    <div class="food">
+        <img src="img/babu.jpg" alt="">
+        <h3>food item - 12</h3>
+        <p>price: $1200</p>
+        <p>Eaque similique molestiae, possimus earum repellendus iure quasi commodi consequuntur assumenda nemo. Natus quasi, explicabo repudiandae minima vero ullam voluptatem.</p>
+        <button>bay naw</button>
+    </div>
+   </div>
+    
+</body>
+</html>
